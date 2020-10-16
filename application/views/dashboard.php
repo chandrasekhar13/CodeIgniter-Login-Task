@@ -39,7 +39,7 @@
 
   echo '<h4>List of Users</h4><pre>';
 
-  if ( $xlsx = SimpleXLSX::parse('C:\wamp64\www\test\demo.xlsx') ) {
+  if ( $xlsx = SimpleXLSX::parse('C:\wamp64\www\codeigniter\application\views\demo.xlsx') ) {
     echo '<table><tbody>';
     $i = 0;
 
